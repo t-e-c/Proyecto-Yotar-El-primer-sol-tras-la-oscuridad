@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="waveCompletePanel" picking-mode="Ignore" style="flex-grow: 1; display: none;">
+        <ui:Label text="Fin de oleada&#10;" name="waveTitleLabel" style="-unity-text-align: upper-center;"/>
+        <ui:Button text="Siguiente oleada" name="nextWaveButton"/>
+        <ui:Button text="Reiniciar nivel" name="restartWaveButton"/>
+    </ui:VisualElement>
+</ui:UXML>
